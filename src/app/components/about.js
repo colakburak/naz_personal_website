@@ -4,9 +4,9 @@ function About() {
     return (
       <header className={styles.container}>
         <h1 id={styles.name}>Naz Demirsoy</h1>
-        <h2 id={styles.jobtitle}>Full Stack Developer</h2>
+        {/* <h2 id={styles.jobtitle}>Full Stack Developer</h2> */}
         <p className={styles.paragraph}>
-          A fresh Computer Science graduate with a keen interest in full-stack development and a track record of hands-on experience in data solutions and server management.
+          A Computer Science graduate currently pursuing an MSc in Data Science, with a strong interest in full-stack development and a passion for integrating AI into web and mobile technologies. Experienced in data solutions, server management, and automation.
         </p>
         {/* Contact */}
         <a href="mailto:nazdemirsoyy@gmail.com" className={styles.emailButton}>
